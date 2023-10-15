@@ -26,6 +26,9 @@ p {
     padding: 0;
     line-height: o.8;
 }
+.mr{
+    margin-right: 0 !important;
+}
 
 .container {
     width: 1280px;
@@ -349,19 +352,20 @@ p {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: 500;
-   margin-left: 70%;
-   margin-top: 40px;
-    
+    margin-left: 70%;
+    margin-top: 40px;
+
 }
 
 .baton i {
     vertical-align: middle;
     margin-left: 20px;
 }
-.right_image_div{
+
+.right_image_div {
     margin-top: 67px;
     position: relative;
-   
+
 }
 
 .overlay {
@@ -393,15 +397,17 @@ p {
 }
 
 .image_text {
-   margin-top: 130px;
-   margin-bottom: 60px;
-   margin-left: 50px;
-   margin-right: 130px;
+    margin-top: 130px;
+    margin-bottom: 60px;
+    margin-left: 50px;
+    margin-right: 130px;
 }
-.img_bottom{
+
+.img_bottom {
     padding-top: 27px;
 }
-.project_right :hover .overlay{
+
+.project_right :hover .overlay {
     visibility: visible;
     opacity: 1;
     transition: .4s;
@@ -409,3 +415,73 @@ p {
 }
 
 /* project Part end*/
+
+/* Feature Part Start*/
+
+#feature_part {
+    background: #F4F6FC;
+}
+.feature_row_1 {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.feature_up {
+    width: 630px;
+    padding-left: 320px;
+    padding-right: 320px;
+    padding-bottom: 40px;
+
+}
+
+.feature_up p {
+    color: #282938;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    padding-top: 130px;
+
+}
+
+.feature_up h3 {
+    color: #282938;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+
+
+}
+
+
+
+.features {
+    width: 405px;
+    background: #FFF;
+    padding: 58px 32px 48px 48px;
+    margin-right: 20px;
+
+}
+
+.features h3 {
+    color: #282938;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 22px;
+    margin-bottom: 12px;
+}
+
+.features p {
+    color: #282938;
+     font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* Feature Part end */
